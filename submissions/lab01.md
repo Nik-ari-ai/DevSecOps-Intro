@@ -57,6 +57,12 @@ Top 3 Risks Observed
 
 - Workflow file: `.github/workflows/lab1-smoke.yml`
 - Trigger: `pull_request` on main
-- Run URL (must be green): <link to your Actions run>
-- Workflow run duration: <e.g. 45s>
+- Run URL (must be green): <https://github.com/Nik-ari-ai/DevSecOps-Intro/actions/runs/27270463301>
+- Workflow run duration: <~15s>
 - Curl response excerpt:
+      Juice Shop is up after ~4s
+      HTTP/1.1 200 OK
+      X-Content-Type-Options: nosniff
+      X-Frame-Options: SAMEORIGIN
+      Content-Type: application/json; charset=utf-8
+      {"version":"20.0.0"}
